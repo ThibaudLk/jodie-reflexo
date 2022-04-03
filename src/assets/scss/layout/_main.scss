@@ -32,6 +32,10 @@
 			border-radius: _size(border-radius);
 			opacity: 0;
 
+			p {
+				text-align: justify;
+			}
+
 			&.timeout {
 				display: none;
 			}
