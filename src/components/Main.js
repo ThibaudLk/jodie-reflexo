@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import jodie from '../images/jodie.jpg'
 import pic02 from '../images/pic02.jpg'
 import reflexologiePlantaire from '../images/reflexologie-plantaire.jpg'
 
@@ -29,7 +29,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Un peu plus sur moi</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={jodie} alt="Moi-même" />
           </span>
 
           <h3>Jodie | 26 ans | Réflexologue</h3>
@@ -60,25 +60,28 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            <h2>Principe de la Réflexologie et de la MTC : </h2>
+            <h2>Principe de la Réflexologie et de la MTC </h2>
             Réflexologie appliquée à la Médecine Traditionnelle Chinoise, issu du Tao. Méthode de soin très complète mise au point par l’Institut Rwo Shr International* de Taïwan, qui s’appuie sur la réflexologie ancestrale. Méthode naturelle et globale, autant préventive que curative.
             Un soin stimulant les zones réflexes des pieds, les méridiens et les points d’acupunctures essentiels  pour rééquilibrer et dynamiser l’organisme dans son ensemble.
           </p>
           <p>
             <h2>Pour qui ?</h2>
-            Bébés, enfants, adolescents, adultes.
-            /!\ A éviter sur les femmes enceintes de moins de 8 mois.
+            Bébés, enfants, adolescents, adultes. <br />
+            <i className="icon fa-solid fa-exclamation-triangle"></i> 
+            A éviter sur les femmes enceintes de moins de 8 mois.
           </p>
           <p>
-            <h2> Bienfaits du soin réflexe : </h2>
-            Évacuer les toxines, diminuer les douleurs du corps
-            Stimuler les mouvements interne du corps
-            tonifier les organes en difficulté et favoriser une meilleure coordination entre eux
-            Équilibrer les excès et les déficiences dans chaque système du corps
-            Relancer la circulation sanguine et lymphatique
-            Générer de l’énergie dynamique
-            Diminuer le stress, les insomnies, les mauvais rêves
-            Harmoniser la sphère émotionnelle et psychique
+            <h2> Bienfaits du soin réflexe </h2>
+            <ul>
+              <li>Évacuer les toxines, diminuer les douleurs du corps</li>
+              <li>Stimuler les mouvements interne du corps</li>
+              <li>Tonifier les organes en difficulté et favoriser une meilleure coordination entre eux</li>
+              <li>Équilibrer les excès et les déficiences dans chaque système du corps</li>
+              <li>Relancer la circulation sanguine et lymphatique</li>
+              <li>Générer de l’énergie dynamique</li>
+              <li>Diminuer le stress, les insomnies, les mauvais rêves</li>
+              <li>Harmoniser la sphère émotionnelle et psychique</li>
+            </ul>
           </p>
           {close}
         </article>
@@ -93,7 +96,7 @@ class Main extends React.Component {
 
           {/* Réflexologie plantaire */}
           <p>
-            <h3>Réflexologie plantaire :</h3>
+            <h3>Réflexologie plantaire </h3>
             <span className="image main">
               <img src={reflexologiePlantaire} alt="" />
             </span>
@@ -104,14 +107,14 @@ class Main extends React.Component {
 
           {/* Réflexologie palmaire */}
           <p>
-            <h3>Réflexologie palmaire :</h3>
+            <h3>Réflexologie palmaire </h3>
             Méthode plus douce pouvant suivre une séance de Gua Sha. <br />
             → 40€ la séance
           </p>
 
           {/* Gua Sha */}
           <p>
-            <h3>Gua Sha :</h3>
+            <h3>Gua Sha </h3>
             <span className="image main">
               <img src={reflexologiePlantaire} alt="" />
             </span>
@@ -122,7 +125,7 @@ class Main extends React.Component {
 
           {/* Dan Tian */}
           <p>
-            <h3>Dan Tian - les huit portes du vent :</h3>
+            <h3>Dan Tian - les huit portes du vent </h3>
             Le nombril est au centre d’un réseau de connexions qui se déploie depuis l’abdomen vers le reste du corps.
             Technique qui active la circulation du Qi (énergie vitale qui circule dans les méridiens) dans tout l’abdomen et relâche les tensions dans la région du nombril en permettant aux énergies perverses de quitter les organes et le corps.
             Permet également de diagnostiquer les viscères en dysfonctionnement et les harmoniser.<br />
@@ -131,7 +134,7 @@ class Main extends React.Component {
 
           {/* Moxibustion */}
           <p>
-            <h3>Moxibustion :</h3>
+            <h3>Moxibustion </h3>
             Action qui consiste à chauffer les points d’acupuncture à l’aide de moxas (à base de plantes Artemisia Vulgaris). Pratique de prévention et de soin pour rééquilibrer les excès et les déficiences d’énergies dans le corps.<br />
             <br />→ 25€ la séance
           </p>
@@ -153,7 +156,7 @@ class Main extends React.Component {
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" required />
+              <input type="email" name="email" id="email" required />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
@@ -161,22 +164,14 @@ class Main extends React.Component {
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special" />
+                <input type="submit" value="Envoyer" className="special" />
               </li>
               <li>
-                <input type="reset" value="Reset" />
+                <input type="reset" value="Effacer" />
               </li>
             </ul>
           </form>
-          <ul className="icons">
-            <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
+          {/* <ul className="icons">
             <li>
               <a href="https://codebushi.com" className="icon fa-facebook">
                 <span className="label">Facebook</span>
@@ -187,15 +182,7 @@ class Main extends React.Component {
                 <span className="label">Instagram</span>
               </a>
             </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
-          </ul>
+          </ul> */}
           {close}
         </article>
       </div>
