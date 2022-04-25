@@ -1,11 +1,15 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import logo from "../images/logo.png"
+import { StaticImage } from 'gatsby-plugin-image'
+
+export function Logo() {
+  return <StaticImage src="../images/logo.png" placeholder="none" alt="Logo Reflexolo-J" />
+}
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <img src={logo}></img>
+      <Logo />
     </div>
     <div className="content">
       <div className="inner">

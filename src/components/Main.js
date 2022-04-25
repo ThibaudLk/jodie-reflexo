@@ -1,8 +1,13 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import jodie from '../images/jodie.jpg'
+import { StaticImage } from 'gatsby-plugin-image'
 import pic02 from '../images/pic02.jpg'
 import reflexologiePlantaire from '../images/reflexologie-plantaire.jpg'
+
+// On utilise gatsby-plugin-image pour optimiser le chargement des images
+export function ImageJodie() {
+  return <StaticImage src="../images/jodie.jpg" placeholder="dominantColor" alt="Moi-même" />
+}
 
 class Main extends React.Component {
   render() {
@@ -29,7 +34,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Un peu plus sur moi</h2>
           <span className="image main">
-            <img src={jodie} alt="Moi-même" />
+            <ImageJodie />
           </span>
 
           <h3>Jodie | 26 ans | Réflexologue</h3>
