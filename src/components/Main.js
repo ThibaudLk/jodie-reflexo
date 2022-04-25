@@ -51,6 +51,11 @@ class Main extends React.Component {
             J’ai été si surprise des bienfaits que j’ai voulu en faire mon métier, pour <b>pouvoir soigner</b>,
             non plus seulement mon entourage mais toutes personnes dans le besoin ou désirant <b>rééquilibrer et redynamiser son corps et son organisme</b>.»
           </p>
+          <p>
+            <u>Mes diplômes :</u> <br />
+            <i class="fa fa-check" /> Réflexologie Plantaire Thérapeutique – à l’Institut de Médecine Naturelle de Genève, selon les exigences ASCA.<br />
+            <i class="fa fa-check" /> Certificat Réflexologie Plantaire, Palmaire & Abdominale appliquée à l’Énergétique Chinoise incluant le Gua Sha et la Moxibustion.
+          </p>
           {close}
         </article>
 
@@ -66,20 +71,29 @@ class Main extends React.Component {
           </span>
           <p>
             <h2>Principe de la Réflexologie et de la Médecine Chinoise </h2>
-            La réflexologie appliquée à la Médecine Traditionnelle Chinoise, issu du Tao est une méthode de soin très complète mise au point par l’<b>Institut Rwo Shr International de Taïwan</b>, qui s’appuie sur la réflexologie ancestrale. Méthode naturelle et globale, autant préventive que curative.
-            Un soin stimulant les zones réflexes des pieds, les méridiens et les points d’acupunctures essentiels  pour rééquilibrer et dynamiser l’organisme dans son ensemble.
+            La réflexologie s’appuie sur les «zones réflexes» de nos pieds, reliées à chacun de nos organes et viscères pour les stimuler, les auto-réguler, les soigner ou les maintenir en santé.<br />
+            En effet, chaque organe et viscère est relié à nos méridiens qui démarrent ou se terminent à nos pieds, puisque l’être humain est fait pour marcher sur ces derniers afin de les masser naturellement, aujourd’hui nous sommes de plus en plus sédentaires, nous portons des chaussures et nos chemins sont faits de bétons ce qui ne vient plus stimuler la plante de nos pieds, c’est pourquoi il peut être nécessaire de rééquilibrer notre corps par la Réflexologie.<br />
+            <br />
+            La Médecine Traditionnelle Chinoise est basée sur la philosophie du Tao (la voie du milieu, de l'équilibre) et l’harmonie des forces de la nature dans l’organisme et son environnement. Ces deux derniers ayant le même fonctionnement, la MTC se penche sur l’équilibre des 5 éléments qui les rassemble (Bois, Feu, Terre, Métal, Eau). Avec l’acupuncture, la moxibustion, l’énergétique, la réflexologie ou le «toucher-réflexe» est le geste thérapeutique le plus ancien de la médecine chinoise. Il repose sur la notion de vecteur d’énergie reliant les extrémités des mains et des pieds aux organes et aux entrailles.<br />
+            La technique issue du Tao, à laquelle j’ai été formée est une méthode de soin très complète mise au point par l’<b>Institut Rwo Shr International de Taïwan</b>, naturelle et globale, autant préventive que curative pour auto-réguler le corps et révéler ses dysfonctionnements en fonction des douleurs sur les zones réflexes ou les méridiens touchés.<br />
+            Ce soin stimulant les zones réflexes des pieds est accompagné par le drainage des méridiens (réseau de vaisseaux à travers lequel le Qi circule), le drainage lymphatique (système nerveux) et l’acupression manuelle des points d’acupunctures essentiels dans l’objectif de rééquilibrer l’organisme dans son ensemble.
           </p>
           <p>
             <h2>Pour qui ?</h2>
-            Bébés, enfants, adolescents, adultes. <br />
-            <i className="icon fa-solid fa-exclamation-triangle"></i> 
-            A éviter sur les femmes enceintes de moins de 8 mois.
+            De 0 à 100 ans<br /><br />
+            <i className="icon fa-solid fa-exclamation-triangle" /> contre indication <i className="icon fa-solid fa-exclamation-triangle" /><br />
+            <ul>
+              <li>femmes enceintes de moins de 8 mois (8 mois et plus peut aider le bébé à bien se positionner ou à sortir si le terme est dépassé)</li>
+              <li>personne ayant un Pacemaker</li>
+              <li>massage moins profond sur des personnes souffrant de graves problème de cœur, de reins ou de diabète</li>
+              <li>déconseillé les 3 premiers jours des menstruations (car le soin augmente le débit  sanguin)</li>
+            </ul>
           </p>
           <p>
             <h2> Bienfaits du soin réflexe </h2>
             <ul>
               <li>Évacuer les toxines, diminuer les douleurs du corps</li>
-              <li>Stimuler les mouvements interne du corps</li>
+              <li>Stimuler les mouvements interne du corps, retrouver un bon fonctionnement de son système digestif</li>
               <li>Tonifier les organes en difficulté et favoriser une meilleure coordination entre eux</li>
               <li>Équilibrer les excès et les déficiences dans chaque système du corps</li>
               <li>Relancer la circulation sanguine et lymphatique</li>
@@ -105,15 +119,19 @@ class Main extends React.Component {
             <span className="image main">
               <img src={reflexologiePlantaire} alt="" />
             </span>
-            Action immédiate sur les organes et viscères du corps. En Médecine Traditionnelle le pied est le reflet de la santé physique, psychique, mentale et émotionnelle, c’est le tableau de commande de l’organisme. Le soin contribue à restaurer la capacité du corps à s’autoréguler en permettant au flux énergétique de traverser le corps et les organes correspondants. <br />
-            En stimulant les zones réflexes perturbées on aide à débarrasser les toxines de l’organisme, détruire les dépôts cristallins tout en renforçant la fonction des organes excréteurs pour en faciliter l’évacuation. <br />
-            <br />→ 50€ la séance – 120€ les 3 séances
+            Action immédiate sur les organes et viscères du corps. En Médecine Traditionnelle le pied est le reflet de la santé physique, psychique, mentale et émotionnelle, c’est le tableau de commande de l’organisme. Le soin contribue à restaurer la capacité du corps à s’autoréguler en permettant au flux énergétique de traverser le corps et les organes correspondants. En stimulant les zones réflexes perturbées on aide à émiliminer les toxines de l’organisme, détruire les dépôts cristallins tout en renforçant la fonction des organes excréteurs pour en faciliter l’évacuation.<br />
+            <br />
+            → 50€ la séance <br />
+            → 120€ les 3 séances
           </p>
 
           {/* Réflexologie palmaire */}
           <p>
             <h3>Réflexologie palmaire </h3>
-            Méthode plus douce pouvant suivre une séance de Gua Sha. <br />
+            Les actions sont les mêmes que la Réflexologie plantaire mais la méthode est plus douce, avec des points d’acupuncture différents.<br />
+            Conseillé pour les personnes ayant des récentes fractures, mycoses, inflammations, enflures, etc au niveau du pied.<br />
+            Cette technique peut être suivie d’une séance de Gua Sha.<br />
+            <br />
             → 40€ la séance
           </p>
 
@@ -123,25 +141,55 @@ class Main extends React.Component {
             <span className="image main">
               <img src={reflexologiePlantaire} alt="" />
             </span>
-            « Gratter l’énergie toxique », technique qui cherche à relâcher l’énergie toxique emprisonnée dans les muscles et le derme, rétablie la circulation du Qi, défaire les stases de sang dans les capillaires, réduire la chaleur et l’inflammation, éliminer le froid et calmer la douleur.
-            Permet de traiter la surface avant de soigner l’interne (conseillé de faire une séance de Gua Sha quelques jours avant une séance de réflexologie plantaire ou peut être fait dans une même séance avec réflexologie palmaire ou Dan Tian)<br />
-            <br />→ 20€ la séance, 55€ Gua Sha + Réflexologie palmaire, 40€ Gua Sha + Dan Tian
+            Signifiant «Gratter l’énergie toxique», cette technique cherche à relâcher l’énergie toxique emprisonnée dans les muscles et le derme, à rétablir la circulation du Qi (énergie vitale qui circule dans les méridiens), à défaire les stases de sang dans les capillaires, à réduire la chaleur et l’inflammation, à éliminer le froid et calmer la douleur.<br />
+            Le Gua Sha permet de traiter la surface avant de soigner l’interne, il est donc conseillé de faire une séance de Gua Sha quelques jours avant une séance de réflexologie plantaire. Il peut également se cumuler avec une séance de réflexologie palmaire ou de Dan Tian. <br />
+            <br />
+            → 20€ la séance <br />
+            → 40€ Gua Sha + Dan Tian <br />
+            → 55€ Gua Sha + Réflexologie palmaire <br />
+            <br />
+            <i className="icon fa-solid fa-exclamation-triangle" /> contre-indications <i className="icon fa-solid fa-exclamation-triangle" />
+            <ul>
+              <li> femme enceinte</li>
+              <li> grande fatigue ou faiblesse, hypotension</li>
+              <li> hypoglycémie</li>
+              <li> désordre ou maladies du sang (leucémie, thrombopénie…)</li>
+              <li> maladie cardio-vascualire (AVC, entérite, infarctus…)</li>
+              <li> insuffisance rénale</li>
+              <li> cirrhose du foie</li>
+              <li> ascites</li>
+              <li> personne sous anticoagulant</li>
+              <li> en cas de phlébite ou thrombose veineuse</li>
+              <li> sur des varices, lésions, blessures, brûlures (coup de soleil), urticaire, éruption, eczéma, psoriasis au niveau du dos</li>
+            </ul>
+            <u>Après le Gua Sha :</u>
+            <ul>
+              <li> éviter le changement de température extrême juste après la séance</li>
+              <li> pas de douche 5h qui suivent</li>
+              <li> bien se couvrir en cas de vent ou de froid</li>
+              <li> pas de bain aux sels d’epsom</li>
+              <li> pas de laitage en cas de rhume, pas d’alcool, pas de nourriture ou boissons froide</li>
+              <li> se reposer !</li>
+            </ul>
           </p>
 
           {/* Dan Tian */}
           <p>
             <h3>Dan Tian - les huit portes du vent </h3>
-            Le nombril est au centre d’un réseau de connexions qui se déploie depuis l’abdomen vers le reste du corps.
-            Technique qui active la circulation du Qi (énergie vitale qui circule dans les méridiens) dans tout l’abdomen et relâche les tensions dans la région du nombril en permettant aux énergies perverses de quitter les organes et le corps.
-            Permet également de diagnostiquer les viscères en dysfonctionnement et les harmoniser.<br />
-            <br />→ 20€ la séance, 40€ Gua Sha + Dan Tian
+            Le nombril est au centre d’un réseau de connexions qui se déploient depuis l’abdomen vers le reste du corps. Cette technique active la circulation du Qi dans tout l’abdomen et relâche les tensions dans la région du nombril en permettant aux énergies perverses de quitter les organes et le corps.<br />
+            Il permet également de diagnostiquer quels sont les viscères en dysfonctionnement et de les harmoniser.<br />
+            <br />
+            → 15€ la séance<br />
+            → 30€ Gua Sha + Dan Tian<br />
           </p>
 
           {/* Moxibustion */}
           <p>
             <h3>Moxibustion </h3>
-            Action qui consiste à chauffer les points d’acupuncture à l’aide de moxas (à base de plantes Artemisia Vulgaris). Pratique de prévention et de soin pour rééquilibrer les excès et les déficiences d’énergies dans le corps.<br />
-            <br />→ 25€ la séance
+            Action qui consiste à chauffer certains points d’acupuncture à l’aide de moxas (à base de plantes Artemisia Vulgaris).<br />
+            C'est une pratique de prévention et de soin pour rééquilibrer les excès et les déficiences d’énergies dans le corps. <br />
+            <br />
+            → 25€ la séance
           </p>
           {close}
         </article>
