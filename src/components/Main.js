@@ -60,8 +60,8 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            <h2>Principe de la Réflexologie et de la MTC </h2>
-            Réflexologie appliquée à la Médecine Traditionnelle Chinoise, issu du Tao. Méthode de soin très complète mise au point par l’Institut Rwo Shr International* de Taïwan, qui s’appuie sur la réflexologie ancestrale. Méthode naturelle et globale, autant préventive que curative.
+            <h2>Principe de la Réflexologie et de la Médecine Chinoise </h2>
+            La réflexologie appliquée à la Médecine Traditionnelle Chinoise, issu du Tao est une méthode de soin très complète mise au point par l’<b>Institut Rwo Shr International de Taïwan</b>, qui s’appuie sur la réflexologie ancestrale. Méthode naturelle et globale, autant préventive que curative.
             Un soin stimulant les zones réflexes des pieds, les méridiens et les points d’acupunctures essentiels  pour rééquilibrer et dynamiser l’organisme dans son ensemble.
           </p>
           <p>
@@ -114,7 +114,7 @@ class Main extends React.Component {
 
           {/* Gua Sha */}
           <p>
-            <h3>Gua Sha </h3>
+            <h3>Gua Sha 刮痧 </h3>
             <span className="image main">
               <img src={reflexologiePlantaire} alt="" />
             </span>

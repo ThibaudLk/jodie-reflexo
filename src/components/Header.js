@@ -9,9 +9,10 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Réflexologie</h1>
-        <p>
-          Le site Web de Jodie
+        <h1 style={{ textAlign : 'center' }}>Réflexolo-J</h1>
+        <p style={{ textAlign : 'center' }}>
+          Réflexologie appliquée à l'énergétique Chinoise<br/>
+          中医
         </p>
       </div>
     </div>

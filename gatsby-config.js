@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Jodie Réflexologie',
+    title: 'Réflexolo-J',
     author: 'DevDurable',
     description: 'Le site web de l\'incroyable Jodie',
+    keywords: 'réfléxologie, chinoise, nort-sur-erdre, plantaire, palmaire, massage, thérapeutique, gua sha, dan tian, moxibustion'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
