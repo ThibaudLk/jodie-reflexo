@@ -70,7 +70,7 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            <h2>Principe de la Réflexologie et de la Médecine Chinoise </h2>
+            <h2 style={{ textAlign : "left" }}>Principe de la Réflexologie et de la Médecine Chinoise </h2>
             La réflexologie s’appuie sur les «zones réflexes» de nos pieds, reliées à chacun de nos organes et viscères pour les stimuler, les auto-réguler, les soigner ou les maintenir en santé.<br />
             En effet, chaque organe et viscère est relié à nos méridiens qui démarrent ou se terminent à nos pieds, puisque l’être humain est fait pour marcher sur ces derniers afin de les masser naturellement, aujourd’hui nous sommes de plus en plus sédentaires, nous portons des chaussures et nos chemins sont faits de bétons ce qui ne vient plus stimuler la plante de nos pieds, c’est pourquoi il peut être nécessaire de rééquilibrer notre corps par la Réflexologie.<br />
             <br />
