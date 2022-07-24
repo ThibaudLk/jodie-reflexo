@@ -53,8 +53,8 @@ class Main extends React.Component {
           </p>
           <p>
             <u>Mes diplômes :</u> <br />
-            <i class="fa fa-check" /> Réflexologie Plantaire Thérapeutique – à l’Institut de Médecine Naturelle de Genève, selon les exigences ASCA.<br />
-            <i class="fa fa-check" /> Certificat Réflexologie Plantaire, Palmaire & Abdominale appliquée à l’Énergétique Chinoise incluant le Gua Sha et la Moxibustion.
+            <i class="fa fa-check" /> <b>Réflexologie Plantaire Thérapeutique</b> – à l’Institut de Médecine Naturelle de Genève, selon les exigences ASCA.<br />
+            <i class="fa fa-check" /> <b>Certificat Réflexologie Plantaire, Palmaire & Abdominale appliquée à l’Énergétique Chinoise</b> incluant le Gua Sha et la Moxibustion.
           </p>
           {close}
         </article>
@@ -70,23 +70,26 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            <h2 style={{ textAlign : "left" }}>Principe de la Réflexologie et de la Médecine Chinoise </h2>
-            La réflexologie s’appuie sur les «zones réflexes» de nos pieds, reliées à chacun de nos organes et viscères pour les stimuler, les auto-réguler, les soigner ou les maintenir en santé.<br />
-            En effet, chaque organe et viscère est relié à nos méridiens qui démarrent ou se terminent à nos pieds, puisque l’être humain est fait pour marcher sur ces derniers afin de les masser naturellement, aujourd’hui nous sommes de plus en plus sédentaires, nous portons des chaussures et nos chemins sont faits de bétons ce qui ne vient plus stimuler la plante de nos pieds, c’est pourquoi il peut être nécessaire de rééquilibrer notre corps par la Réflexologie.<br />
+            <h2 style={{ textAlign: "left" }}>Principe de la Médecine Traditionnelle Chinoise et de la Réflexologie </h2>
+
+
             <br />
-            La Médecine Traditionnelle Chinoise est basée sur la philosophie du Tao (la voie du milieu, de l'équilibre) et l’harmonie des forces de la nature dans l’organisme et son environnement. Ces deux derniers ayant le même fonctionnement, la MTC se penche sur l’équilibre des 5 éléments qui les rassemble (Bois, Feu, Terre, Métal, Eau). Avec l’acupuncture, la moxibustion, l’énergétique, la réflexologie ou le «toucher-réflexe» est le geste thérapeutique le plus ancien de la médecine chinoise. Il repose sur la notion de vecteur d’énergie reliant les extrémités des mains et des pieds aux organes et aux entrailles.<br />
-            La technique issue du Tao, à laquelle j’ai été formée est une méthode de soin très complète mise au point par l’<b>Institut Rwo Shr International de Taïwan</b>, naturelle et globale, autant préventive que curative pour auto-réguler le corps et révéler ses dysfonctionnements en fonction des douleurs sur les zones réflexes ou les méridiens touchés.<br />
-            Ce soin stimulant les zones réflexes des pieds est accompagné par le drainage des méridiens (réseau de vaisseaux à travers lequel le Qi circule), le drainage lymphatique (système nerveux) et l’acupression manuelle des points d’acupunctures essentiels dans l’objectif de rééquilibrer l’organisme dans son ensemble.
+            La Médecine Traditionnelle Chinoise (MTC) est basée sur la philosophie du Tao (<i>la voie du milieu, de l'équilibre</i>) et l’harmonie des forces de la nature dans l’organisme et son environnement. Ces deux derniers ayant le même fonctionnement, la MTC se penche sur l’équilibre des 5 éléments qui les rassemble (Bois, Feu, Terre, Métal, Eau). <br />
+            Avec l’acupuncture, la moxibustion et l’énergétique, la réflexologie est le geste thérapeutique le plus ancien de la médecine chinoise.
+            La technique de réflexologie chinoise à laquelle j'ai été formée a été mise au point par l’<b>Institut Rwo Shr International de Taïwan</b>, reconnu par l'Organisation Mondiale de la Santé.<br />
+            Il repose sur la notion de vecteur d’énergie reliant les extrémités des mains et des pieds aux organes et aux entrailles par des zones appelées "zones réflexes".<br />
+            Elle a pour but de stimuler, auto-réguler, soigner et maintenir en santé le corps par la pression de ces zones réflexes. Le soin plantaire est accompagné par le drainage des méridiens (<i>réseau de vaisseaux à travers lequel l'énergie vitale "Qi" circule</i>), le drainage lymphatique (<i>système nerveux</i>) et l’acupression manuelle des points d’acupunctures essentiels dans l’objectif de rééquilibrer l’organisme dans son ensemble.
+            Aujourd’hui nous sommes de plus en plus sédentaires, nous portons des chaussures qui ne sont pas toujours adapatées, la plante de nos pieds n'est donc plus autant stimulée. C’est pourquoi il peut être nécessaire de rééquilibrer notre corps par la Réflexologie, étant une médecine aussi bien curative que préventive.<br />
           </p>
           <p>
             <h2>Pour qui ?</h2>
-            De 0 à 100 ans<br /><br />
-            <i className="icon fa-solid fa-exclamation-triangle" /> contre indication <i className="icon fa-solid fa-exclamation-triangle" /><br />
+            Toute personne désirant prendre soin de son corps et de son esprit.<br /><br />
+            <i className="icon fa-solid fa-exclamation-triangle" /> Contre-indications <i className="icon fa-solid fa-exclamation-triangle" /><br />
             <ul>
-              <li>femmes enceintes de moins de 8 mois (8 mois et plus peut aider le bébé à bien se positionner ou à sortir si le terme est dépassé)</li>
-              <li>personne ayant un Pacemaker</li>
-              <li>massage moins profond sur des personnes souffrant de graves problème de cœur, de reins ou de diabète</li>
-              <li>déconseillé les 3 premiers jours des menstruations (car le soin augmente le débit  sanguin)</li>
+              <li>Femmes enceintes de moins de 8 mois (<i>à 8 mois et plus le soin peut cependant aider le bébé à bien se positionner ou à déclencher l'accouchement si le terme est dépassé</i>)</li>
+              <li>Personne ayant un Pacemaker</li>
+              <li>Massage moins profond sur des personnes souffrant de graves problème de cœur, de reins ou de diabète</li>
+              <li>Déconseillé les 3 premiers jours des menstruations (car le soin augmente le débit  sanguin)</li>
             </ul>
           </p>
           <p>
