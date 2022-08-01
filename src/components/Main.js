@@ -49,13 +49,17 @@ class Main extends React.Component {
             Nous avons également approfondi la médecine et la pensée chinoise, leur façon de prévenir et de guérir les corps humains, puis les techniques, les méridiens et les points d’acupunctures. <br />
             Tant de choses qui, une fois appliquées ont fait preuve de <b>guérisons impressionnantes</b> sur certains de mes consultants.
             J’ai été si surprise des bienfaits que j’ai voulu en faire mon métier, pour <b>pouvoir soigner</b>,
-            non plus seulement mon entourage mais toutes personnes dans le besoin ou désirant <b>rééquilibrer et redynamiser son corps et son organisme</b>.»
+            non plus seulement mon entourage mais toutes personnes dans le besoin ou désirant <b>rééquilibrer et redynamiser son corps et son organisme</b>.<br /> 
+            Par la suite, j'ai voulu approfondir ma technique, je me suis donc également formée sur la diététique du Tao. C'est un complément qui me paraissait essentiel pour pouvoir conseiller toutes personnes que je soigne par la réflexologie, ayant des troubles liés à leur système digestif ou celles désireuse de réguler leur poids ou changer leurs habitudes alimentaires pour être en meilleure santé.»
+
+        
           </p>
           <p>
             <u>Mes diplômes :</u> <br />
             <i class="fa fa-check" /> <b>Réflexologie Plantaire Thérapeutique</b> – à l’Institut de Médecine Naturelle de Genève, selon les exigences ASCA.<br />
             <i class="fa fa-check" /> <b>Certificat Réflexologie Plantaire, Palmaire & Abdominale appliquée à l’Énergétique Chinoise</b> incluant le Gua Sha et la Moxibustion.
-          </p>
+            <i class="fa fa-check" /> <b>Certificat Diététique du Tao.</b> 
+             </p>
           {close}
         </article>
 
@@ -89,7 +93,7 @@ class Main extends React.Component {
               <li>Femmes enceintes de moins de 8 mois (<i>à 8 mois et plus le soin peut cependant aider le bébé à bien se positionner ou à déclencher l'accouchement si le terme est dépassé</i>)</li>
               <li>Personne ayant un Pacemaker</li>
               <li>Massage moins profond sur des personnes souffrant de graves problème de cœur, de reins ou de diabète</li>
-              <li>Déconseillé les 3 premiers jours des menstruations (car le soin augmente le débit  sanguin)</li>
+              <li>Déconseillé les 3 premiers jours des menstruations (<i>car le soin augmente le débit  sanguin</i>)</li>
             </ul>
           </p>
           <p>
@@ -122,17 +126,20 @@ class Main extends React.Component {
             <span className="image main">
               <img src={reflexologiePlantaire} alt="" />
             </span>
-            Action immédiate sur les organes et viscères du corps. En Médecine Traditionnelle le pied est le reflet de la santé physique, psychique, mentale et émotionnelle, c’est le tableau de commande de l’organisme. Le soin contribue à restaurer la capacité du corps à s’autoréguler en permettant au flux énergétique de traverser le corps et les organes correspondants. En stimulant les zones réflexes perturbées on aide à émiliminer les toxines de l’organisme, détruire les dépôts cristallins tout en renforçant la fonction des organes excréteurs pour en faciliter l’évacuation.<br />
+            Action immédiate sur les organes et viscères du corps. En Médecine Traditionnelle le pied est le reflet de la santé physique, psychique, mentale et émotionnelle, c’est le tableau de commande de l’organisme. 
+            Le soin contribue à restaurer la capacité du corps à s’autoréguler en permettant au flux énergétique de traverser le corps et les organes correspondants. 
+            En stimulant les zones réflexes perturbées on aide à émiliminer les toxines de l’organisme, détruire les dépôts cristallins tout en renforçant la fonction des organes excréteurs pour en faciliter l’évacuation.<br />
             <br />
+            → 35€ la séance découverte <br />
             → 50€ la séance <br />
-            → 120€ les 3 séances
+            → 120€ les 3 séances (<i>il est recommandé de faire 3 séances sur 2 semaines pour un soin approfondi</i>)
           </p>
 
           {/* Réflexologie palmaire */}
           <p>
             <h3>Réflexologie palmaire </h3>
-            Les actions sont les mêmes que la Réflexologie plantaire mais la méthode est plus douce, avec des points d’acupuncture différents.<br />
-            Conseillé pour les personnes ayant des récentes fractures, mycoses, inflammations, enflures, etc au niveau du pied.<br />
+            Les actions sont les mêmes que la Réflexologie plantaire mais moins directes car la méthode est plus douce, avec des points d’acupuncture différents.<br />
+            Conseillé pour les personnes ayant des récentes fractures, mycoses, inflammations ou enflures au niveau du pied.<br />
             Cette technique peut être suivie d’une séance de Gua Sha.<br />
             <br />
             → 40€ la séance
@@ -144,7 +151,7 @@ class Main extends React.Component {
             <span className="image main">
               <img src={reflexologiePlantaire} alt="" />
             </span>
-            Signifiant «Gratter l’énergie toxique», cette technique cherche à relâcher l’énergie toxique emprisonnée dans les muscles et le derme, à rétablir la circulation du Qi (énergie vitale qui circule dans les méridiens), à défaire les stases de sang dans les capillaires, à réduire la chaleur et l’inflammation, à éliminer le froid et calmer la douleur.<br />
+            Signifiant «Gratter l’énergie toxique», cette technique cherche à relâcher l’énergie toxique emprisonnée dans les muscles et le derme, à rétablir la circulation du Qi (<i>énergie vitale qui circule dans les méridiens</i>), à défaire les stases de sang dans les capillaires, à réduire la chaleur et l’inflammation, à éliminer le froid et calmer la douleur.<br />
             Le Gua Sha permet de traiter la surface avant de soigner l’interne, il est donc conseillé de faire une séance de Gua Sha quelques jours avant une séance de réflexologie plantaire. Il peut également se cumuler avec une séance de réflexologie palmaire ou de Dan Tian. <br />
             <br />
             → 20€ la séance <br />
@@ -153,33 +160,34 @@ class Main extends React.Component {
             <br />
             <i className="icon fa-solid fa-exclamation-triangle" /> contre-indications <i className="icon fa-solid fa-exclamation-triangle" />
             <ul>
-              <li> femme enceinte</li>
-              <li> grande fatigue ou faiblesse, hypotension</li>
-              <li> hypoglycémie</li>
-              <li> désordre ou maladies du sang (leucémie, thrombopénie…)</li>
-              <li> maladie cardio-vascualire (AVC, entérite, infarctus…)</li>
-              <li> insuffisance rénale</li>
-              <li> cirrhose du foie</li>
-              <li> ascites</li>
-              <li> personne sous anticoagulant</li>
-              <li> en cas de phlébite ou thrombose veineuse</li>
-              <li> sur des varices, lésions, blessures, brûlures (coup de soleil), urticaire, éruption, eczéma, psoriasis au niveau du dos</li>
+              <li> Femme enceinte</li>
+              <li> Grande fatigue ou faiblesse, hypotension</li>
+              <li> Hypoglycémie</li>
+              <li> Désordre ou maladies du sang (leucémie, thrombopénie…)</li>
+              <li> Maladie cardio-vascualire (<i>AVC, entérite, infarctus…</i>)</li>
+              <li> Insuffisance rénale</li>
+              <li> Cirrhose du foie</li>
+              <li> Ascites</li>
+              <li> Personne sous anticoagulant</li>
+              <li> Phlébite ou thrombose veineuse</li>
+              <li> Sur des varices, lésions, blessures, brûlures (<i>coup de soleil</i>), urticaire, éruption, eczéma, psoriasis au niveau du dos</li>
             </ul>
             <u>Après le Gua Sha :</u>
             <ul>
-              <li> éviter le changement de température extrême juste après la séance</li>
-              <li> pas de douche 5h qui suivent</li>
-              <li> bien se couvrir en cas de vent ou de froid</li>
-              <li> pas de bain aux sels d’epsom</li>
-              <li> pas de laitage en cas de rhume, pas d’alcool, pas de nourriture ou boissons froide</li>
-              <li> se reposer !</li>
+              <li> Eviter le changement de température extrême juste après la séance</li>
+              <li> Pas de douche les 5 heures qui suivent</li>
+              <li> Bien se couvrir en cas de vent ou de froid</li>
+              <li> Pas de bain aux sels d’epsom</li>
+              <li> Pas de laitage en cas de rhume, pas d’alcool, pas de nourriture ou boissons froide</li>
+              <li> Se reposer !</li>
             </ul>
           </p>
 
           {/* Dan Tian */}
           <p>
             <h3>Dan Tian - les huit portes du vent </h3>
-            Le nombril est au centre d’un réseau de connexions qui se déploient depuis l’abdomen vers le reste du corps. Cette technique active la circulation du Qi dans tout l’abdomen et relâche les tensions dans la région du nombril en permettant aux énergies perverses de quitter les organes et le corps.<br />
+            Le nombril est au centre d’un réseau de connexions qui se déploient depuis l’abdomen vers le reste du corps. 
+            Cette technique active la circulation du Qi dans tout l’abdomen et relâche les tensions dans la région du nombril en permettant aux énergies perverses de quitter les organes et le corps.<br />
             Il permet également de diagnostiquer quels sont les viscères en dysfonctionnement et de les harmoniser.<br />
             <br />
             → 15€ la séance<br />
@@ -187,13 +195,13 @@ class Main extends React.Component {
           </p>
 
           {/* Moxibustion */}
-          <p>
+          {/* <p>
             <h3>Moxibustion </h3>
             Action qui consiste à chauffer certains points d’acupuncture à l’aide de moxas (à base de plantes Artemisia Vulgaris).<br />
             C'est une pratique de prévention et de soin pour rééquilibrer les excès et les déficiences d’énergies dans le corps. <br />
             <br />
             → 25€ la séance
-          </p>
+          </p> */}
           {close}
         </article>
 
