@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
-import pic02 from '../images/pic02.jpg'
-import reflexologiePlantaire from '../images/reflexologie-plantaire.jpg'
+import reflexoPlantaire from '../images/reflexoPlantaire.jpg'
+import guasha from '../images/guasha.jpg'
+import palmaire from '../images/palmaire.jpg'
 
 // On utilise gatsby-plugin-image pour optimiser le chargement des images
 export function ImageJodie() {
@@ -49,17 +50,17 @@ class Main extends React.Component {
             Nous avons également approfondi la médecine et la pensée chinoise, leur façon de prévenir et de guérir les corps humains, puis les techniques, les méridiens et les points d’acupunctures. <br />
             Tant de choses qui, une fois appliquées ont fait preuve de <b>guérisons impressionnantes</b> sur certains de mes consultants.
             J’ai été si surprise des bienfaits que j’ai voulu en faire mon métier, pour <b>pouvoir soigner</b>,
-            non plus seulement mon entourage mais toutes personnes dans le besoin ou désirant <b>rééquilibrer et redynamiser son corps et son organisme</b>.<br /> 
+            non plus seulement mon entourage mais toutes personnes dans le besoin ou désirant <b>rééquilibrer et redynamiser son corps et son organisme</b>.<br />
             Par la suite, j'ai voulu approfondir ma technique, je me suis donc également formée sur la diététique du Tao. C'est un complément qui me paraissait essentiel pour pouvoir conseiller toutes personnes que je soigne par la réflexologie, ayant des troubles liés à leur système digestif ou celles désireuse de réguler leur poids ou changer leurs habitudes alimentaires pour être en meilleure santé.»
 
-        
+
           </p>
           <p>
             <u>Mes diplômes :</u> <br />
             <i class="fa fa-check" /> <b>Réflexologie Plantaire Thérapeutique</b> – à l’Institut de Médecine Naturelle de Genève, selon les exigences ASCA.<br />
             <i class="fa fa-check" /> <b>Certificat Réflexologie Plantaire, Palmaire & Abdominale appliquée à l’Énergétique Chinoise</b> incluant le Gua Sha et la Moxibustion.
-            <i class="fa fa-check" /> <b>Certificat Diététique du Tao.</b> 
-             </p>
+            <i class="fa fa-check" /> <b>Certificat Diététique du Tao.</b>
+          </p>
           {close}
         </article>
 
@@ -71,7 +72,7 @@ class Main extends React.Component {
         >
           <h2 className="major">La Réflexologie</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={reflexoPlantaire} alt="Reflexologie plantaire" />
           </span>
           <p>
             <h2 style={{ textAlign: "left" }}>Principe de la Médecine Traditionnelle Chinoise et de la Réflexologie </h2>
@@ -124,11 +125,11 @@ class Main extends React.Component {
           <p>
             <h3>Réflexologie plantaire </h3>
             <span className="image main">
-              <img src={reflexologiePlantaire} alt="" />
+              <img src={reflexoPlantaire} alt="Reflexologie plantaire" />
             </span>
-            Action immédiate sur les organes et viscères du corps. En Médecine Traditionnelle le pied est le reflet de la santé physique, psychique, mentale et émotionnelle, c’est le tableau de commande de l’organisme. 
-            Le soin contribue à restaurer la capacité du corps à s’autoréguler en permettant au flux énergétique de traverser le corps et les organes correspondants. 
-            En stimulant les zones réflexes perturbées on aide à émiliminer les toxines de l’organisme, détruire les dépôts cristallins tout en renforçant la fonction des organes excréteurs pour en faciliter l’évacuation.<br />
+            Action immédiate sur les organes et viscères du corps. <b>En Médecine Traditionnelle le pied est le reflet de la santé physique, psychique, mentale et émotionnelle</b>, c’est le tableau de commande de l’organisme.
+            Le soin contribue à restaurer la capacité du corps à s’autoréguler en permettant au flux énergétique de traverser le corps et les organes correspondants.
+            En stimulant les zones réflexes perturbées <b>on aide à émiliminer les toxines de l’organisme, détruire les dépôts cristallins tout en renforçant la fonction des organes excréteurs pour en faciliter l’évacuation</b>.<br />
             <br />
             → 35€ la séance découverte <br />
             → 50€ la séance <br />
@@ -138,7 +139,10 @@ class Main extends React.Component {
           {/* Réflexologie palmaire */}
           <p>
             <h3>Réflexologie palmaire </h3>
-            Les actions sont les mêmes que la Réflexologie plantaire mais moins directes car la méthode est plus douce, avec des points d’acupuncture différents.<br />
+            <span className="image main">
+              <img src={palmaire} alt="Réflexologie palmaire" />
+            </span>
+            Les actions sont les mêmes que la Réflexologie plantaire mais moins directes car la <b>méthode est plus douce</b>, avec des points d’acupuncture différents.<br />
             Conseillé pour les personnes ayant des récentes fractures, mycoses, inflammations ou enflures au niveau du pied.<br />
             Cette technique peut être suivie d’une séance de Gua Sha.<br />
             <br />
@@ -149,9 +153,9 @@ class Main extends React.Component {
           <p>
             <h3>Gua Sha 刮痧 </h3>
             <span className="image main">
-              <img src={reflexologiePlantaire} alt="" />
+              <img src={guasha} alt="Cuillère Gua Sha" />
             </span>
-            Signifiant «Gratter l’énergie toxique», cette technique cherche à relâcher l’énergie toxique emprisonnée dans les muscles et le derme, à rétablir la circulation du Qi (<i>énergie vitale qui circule dans les méridiens</i>), à défaire les stases de sang dans les capillaires, à réduire la chaleur et l’inflammation, à éliminer le froid et calmer la douleur.<br />
+            Signifiant «Gratter l’énergie toxique», cette technique cherche à <b>relâcher l’énergie toxique emprisonnée dans les muscles et le derme, à rétablir la circulation du Qi (<i>énergie vitale qui circule dans les méridiens</i>), à défaire les stases de sang dans les capillaires, à réduire la chaleur et l’inflammation, à éliminer le froid et calmer la douleur</b>.<br />
             Le Gua Sha permet de traiter la surface avant de soigner l’interne, il est donc conseillé de faire une séance de Gua Sha quelques jours avant une séance de réflexologie plantaire. Il peut également se cumuler avec une séance de réflexologie palmaire ou de Dan Tian. <br />
             <br />
             → 20€ la séance <br />
@@ -186,9 +190,9 @@ class Main extends React.Component {
           {/* Dan Tian */}
           <p>
             <h3>Dan Tian - les huit portes du vent </h3>
-            Le nombril est au centre d’un réseau de connexions qui se déploient depuis l’abdomen vers le reste du corps. 
-            Cette technique active la circulation du Qi dans tout l’abdomen et relâche les tensions dans la région du nombril en permettant aux énergies perverses de quitter les organes et le corps.<br />
-            Il permet également de diagnostiquer quels sont les viscères en dysfonctionnement et de les harmoniser.<br />
+            Le nombril est au centre d’un réseau de connexions qui se déploient depuis l’abdomen vers le reste du corps.
+            Cette technique <b>active la circulation du Qi</b> dans tout l’abdomen et <b>relâche les tensions dans la région du nombril</b> en permettant aux énergies perverses de quitter les organes et le corps.<br />
+            Il permet également de <b>diagnostiquer quels sont les viscères en dysfonctionnement et de les harmoniser</b>.<br />
             <br />
             → 15€ la séance<br />
             → 30€ Gua Sha + Dan Tian<br />
@@ -211,7 +215,17 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Prendre rendez-vous</h2>
+Rendez-vous à votre domicile<br/>
+Je me déplace sur Nort-sur-Erdre et ses alentours.<br/>
+
+<b>Pour me contacter, merci de préciser votre commune de domicile et vos disponibilités.<b/>
+
+<h3>Mes horaires </h3>
+Du lundi au vendredi de 17h à 20h <br/>
+Possibilité de prendre rendez-vous le samedi sur demande, si besoin. 
+
+          <h2 className="major">Me contacter</h2>
           <form name="contact" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
             <div className="field half first">
