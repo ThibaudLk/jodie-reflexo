@@ -219,7 +219,8 @@ class Main extends React.Component {
 Rendez-vous à votre domicile<br/>
 Je me déplace sur Nort-sur-Erdre et ses alentours.<br/>
 
-<b>Pour me contacter, merci de préciser votre commune de domicile et vos disponibilités.<b/>
+<b>Pour me contacter, merci de préciser votre commune de domicile et vos disponibilités.</b>
+<br />
 
 <h3>Mes horaires </h3>
 Du lundi au vendredi de 17h à 20h <br/>
