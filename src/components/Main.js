@@ -4,6 +4,8 @@ import { StaticImage } from 'gatsby-plugin-image'
 import reflexoPlantaire from '../images/reflexoPlantaire.jpg'
 import guasha from '../images/guasha.jpg'
 import palmaire from '../images/palmaire.jpg'
+import asca from '../images/asca.png'
+import formationdutao from '../images/formationdutao.png'
 
 // On utilise gatsby-plugin-image pour optimiser le chargement des images
 export function ImageJodie() {
@@ -51,15 +53,19 @@ class Main extends React.Component {
             Tant de choses qui, une fois appliquées ont fait preuve de <b>guérisons impressionnantes</b> sur certains de mes consultants.
             J’ai été si surprise des bienfaits que j’ai voulu en faire mon métier, pour <b>pouvoir soigner</b>,
             non plus seulement mon entourage mais toutes personnes dans le besoin ou désirant <b>rééquilibrer et redynamiser son corps et son organisme</b>.<br />
-            Par la suite, j'ai voulu approfondir ma technique, je me suis donc également formée sur la diététique du Tao. C'est un complément qui me paraissait essentiel pour pouvoir conseiller toutes personnes que je soigne par la réflexologie, ayant des troubles liés à leur système digestif ou celles désireuse de réguler leur poids ou changer leurs habitudes alimentaires pour être en meilleure santé.»
+            Par la suite, j'ai voulu approfondir ma technique, je me suis donc également formée sur la <b>diététique du Tao</b>. C'est un complément qui me paraissait essentiel pour pouvoir conseiller toutes personnes ayant des troubles liés à leur système digestif ou celles désireuses de réguler leur poids ou changer leurs habitudes alimentaires pour être en meilleure santé.»
 
 
           </p>
           <p>
             <u>Mes diplômes :</u> <br />
             <i class="fa fa-check" /> <b>Réflexologie Plantaire Thérapeutique</b> – à l’Institut de Médecine Naturelle de Genève, selon les exigences ASCA.<br />
-            <i class="fa fa-check" /> <b>Certificat Réflexologie Plantaire, Palmaire & Abdominale appliquée à l’Énergétique Chinoise</b> incluant le Gua Sha et la Moxibustion.
+            <i class="fa fa-check" /> <b>Certificat Réflexologie Plantaire, Palmaire & Abdominale appliquée à l’Énergétique Chinoise</b> incluant le Gua Sha et la Moxibustion.<br />
+
             <i class="fa fa-check" /> <b>Certificat Diététique du Tao.</b>
+            <br /><br />
+            <img src={formationdutao} alt="Formation du Tao" />
+            <img src={asca} style={{ float: 'right' }} alt="ASCA" />
           </p>
           {close}
         </article>
@@ -89,7 +95,7 @@ class Main extends React.Component {
           <p>
             <h2>Pour qui ?</h2>
             Toute personne désirant prendre soin de son corps et de son esprit.<br /><br />
-            <i className="icon fa-solid fa-exclamation-triangle" /> Contre-indications <i className="icon fa-solid fa-exclamation-triangle" /><br />
+            <h4><i className="icon fa-solid fa-exclamation-triangle" /> Contre-indications <i className="icon fa-solid fa-exclamation-triangle" /></h4>
             <ul>
               <li>Femmes enceintes de moins de 8 mois (<i>à 8 mois et plus le soin peut cependant aider le bébé à bien se positionner ou à déclencher l'accouchement si le terme est dépassé</i>)</li>
               <li>Personne ayant un Pacemaker</li>
@@ -131,9 +137,22 @@ class Main extends React.Component {
             Le soin contribue à restaurer la capacité du corps à s’autoréguler en permettant au flux énergétique de traverser le corps et les organes correspondants.
             En stimulant les zones réflexes perturbées <b>on aide à émiliminer les toxines de l’organisme, détruire les dépôts cristallins tout en renforçant la fonction des organes excréteurs pour en faciliter l’évacuation</b>.<br />
             <br />
-            → 35€ la séance découverte <br />
-            → 50€ la séance <br />
-            → 120€ les 3 séances (<i>il est recommandé de faire 3 séances sur 2 semaines pour un soin approfondi</i>)
+            <h4 style={{ cursor: 'pointer' }} onClick={() => {
+              var x = document.getElementById("tarif0");
+              var arrow = document.getElementsByClassName("rotate")[0];
+              if (x.style.display === "none") {
+                x.style.display = "block";
+                arrow.classList.add('down');
+              } else {
+                x.style.display = "none";
+                arrow.classList.remove('down');
+              }
+            }}><i className='icon fa-arrow-right rotate'></i> Tarifs</h4>
+            <p id="tarif0" style={{ display: "none" }}>
+              → 35€ la séance découverte <br />
+              → 50€ la séance <br />
+              → 120€ les 3 séances (<i>il est recommandé de faire 3 séances sur 2 semaines pour un soin approfondi</i>)
+            </p>
           </p>
 
           {/* Réflexologie palmaire */}
@@ -146,7 +165,20 @@ class Main extends React.Component {
             Conseillé pour les personnes ayant des récentes fractures, mycoses, inflammations ou enflures au niveau du pied.<br />
             Cette technique peut être suivie d’une séance de Gua Sha.<br />
             <br />
-            → 40€ la séance
+            <h4 style={{ cursor: 'pointer' }} onClick={() => {
+              var x = document.getElementById("tarif1");
+              var arrow = document.getElementsByClassName("rotate")[1];
+              if (x.style.display === "none") {
+                x.style.display = "block";
+                arrow.classList.add('down');
+              } else {
+                x.style.display = "none";
+                arrow.classList.remove('down');
+              }
+            }}><i className='icon fa-arrow-right rotate'></i> Tarifs</h4>
+            <p id="tarif1" style={{ display: "none" }}>
+              → 40€ la séance
+            </p>
           </p>
 
           {/* Gua Sha */}
@@ -158,33 +190,69 @@ class Main extends React.Component {
             Signifiant «Gratter l’énergie toxique», cette technique cherche à <b>relâcher l’énergie toxique emprisonnée dans les muscles et le derme, à rétablir la circulation du Qi (<i>énergie vitale qui circule dans les méridiens</i>), à défaire les stases de sang dans les capillaires, à réduire la chaleur et l’inflammation, à éliminer le froid et calmer la douleur</b>.<br />
             Le Gua Sha permet de traiter la surface avant de soigner l’interne, il est donc conseillé de faire une séance de Gua Sha quelques jours avant une séance de réflexologie plantaire. Il peut également se cumuler avec une séance de réflexologie palmaire ou de Dan Tian. <br />
             <br />
-            → 20€ la séance <br />
-            → 40€ Gua Sha + Dan Tian <br />
-            → 55€ Gua Sha + Réflexologie palmaire <br />
-            <br />
-            <i className="icon fa-solid fa-exclamation-triangle" /> contre-indications <i className="icon fa-solid fa-exclamation-triangle" />
-            <ul>
-              <li> Femme enceinte</li>
-              <li> Grande fatigue ou faiblesse, hypotension</li>
-              <li> Hypoglycémie</li>
-              <li> Désordre ou maladies du sang (leucémie, thrombopénie…)</li>
-              <li> Maladie cardio-vascualire (<i>AVC, entérite, infarctus…</i>)</li>
-              <li> Insuffisance rénale</li>
-              <li> Cirrhose du foie</li>
-              <li> Ascites</li>
-              <li> Personne sous anticoagulant</li>
-              <li> Phlébite ou thrombose veineuse</li>
-              <li> Sur des varices, lésions, blessures, brûlures (<i>coup de soleil</i>), urticaire, éruption, eczéma, psoriasis au niveau du dos</li>
-            </ul>
-            <u>Après le Gua Sha :</u>
-            <ul>
-              <li> Eviter le changement de température extrême juste après la séance</li>
-              <li> Pas de douche les 5 heures qui suivent</li>
-              <li> Bien se couvrir en cas de vent ou de froid</li>
-              <li> Pas de bain aux sels d’epsom</li>
-              <li> Pas de laitage en cas de rhume, pas d’alcool, pas de nourriture ou boissons froide</li>
-              <li> Se reposer !</li>
-            </ul>
+            <h4 style={{ cursor: 'pointer' }} onClick={() => {
+              var x = document.getElementById("tarif2");
+              var arrow = document.getElementsByClassName("rotate")[2];
+              if (x.style.display === "none") {
+                x.style.display = "block";
+                arrow.classList.add('down');
+              } else {
+                x.style.display = "none";
+                arrow.classList.remove('down');
+              }
+            }}><i className='icon fa-arrow-right rotate'></i> Tarifs</h4>
+            <p id="tarif2" style={{ display: "none" }}>
+              → 20€ la séance <br />
+              → 40€ Gua Sha + Dan Tian <br />
+              → 55€ Gua Sha + Réflexologie palmaire <br />
+            </p>
+            <h4 style={{ cursor: 'pointer' }} onClick={() => {
+              var x = document.getElementById("contreIndication");
+              var arrow = document.getElementsByClassName("rotate")[3];
+              if (x.style.display === "none") {
+                x.style.display = "block";
+                arrow.classList.add('down');
+              } else {
+                x.style.display = "none";
+                arrow.classList.remove('down');
+              }
+            }}><i className='icon fa-arrow-right rotate'></i> Contre indications</h4>
+            <p id="contreIndication" style={{ display: "none" }}>
+              <ul>
+                <li> Femme enceinte</li>
+                <li> Grande fatigue ou faiblesse, hypotension</li>
+                <li> Hypoglycémie</li>
+                <li> Désordre ou maladies du sang (<i>leucémie, thrombopénie…</i>)</li>
+                <li> Maladie cardio-vascualire (<i>AVC, entérite, infarctus…</i>)</li>
+                <li> Insuffisance rénale</li>
+                <li> Cirrhose du foie</li>
+                <li> Ascites</li>
+                <li> Personne sous anticoagulant</li>
+                <li> Phlébite ou thrombose veineuse</li>
+                <li> Sur des varices, lésions, blessures, brûlures (<i>coup de soleil</i>), urticaire, éruption, eczéma, psoriasis au niveau du dos</li>
+              </ul>
+            </p>
+            <h4 style={{ cursor: 'pointer' }} onClick={() => {
+              var x = document.getElementById("apresGuaSha");
+              var arrow = document.getElementsByClassName("rotate")[4];
+              if (x.style.display === "none") {
+                x.style.display = "block";
+                arrow.classList.add('down');
+              } else {
+                x.style.display = "none";
+                arrow.classList.remove('down');
+              }
+            }}><i className='icon fa-arrow-right rotate'></i> Après le Gua Sha</h4>
+            <p id="apresGuaSha" style={{ display: "none" }}>
+              <ul>
+                <li> Eviter le changement de température extrême juste après la séance</li>
+                <li> Pas de douche les 5 heures qui suivent</li>
+                <li> Bien se couvrir en cas de vent ou de froid</li>
+                <li> Pas de bain aux sels d’epsom</li>
+                <li> Pas de laitage en cas de rhume, pas d’alcool, pas de nourriture ou boissons froide</li>
+                <li> Se reposer !</li>
+              </ul>
+            </p>
           </p>
 
           {/* Dan Tian */}
@@ -194,8 +262,21 @@ class Main extends React.Component {
             Cette technique <b>active la circulation du Qi</b> dans tout l’abdomen et <b>relâche les tensions dans la région du nombril</b> en permettant aux énergies perverses de quitter les organes et le corps.<br />
             Il permet également de <b>diagnostiquer quels sont les viscères en dysfonctionnement et de les harmoniser</b>.<br />
             <br />
-            → 15€ la séance<br />
-            → 30€ Gua Sha + Dan Tian<br />
+            <h4 style={{ cursor: 'pointer' }} onClick={() => {
+              var x = document.getElementById("tarif5");
+              var arrow = document.getElementsByClassName("rotate")[5];
+              if (x.style.display === "none") {
+                x.style.display = "block";
+                arrow.classList.add('down');
+              } else {
+                x.style.display = "none";
+                arrow.classList.remove('down');
+              }
+            }}><i className='icon fa-arrow-right rotate'></i> Tarifs</h4>
+            <p id="tarif5" style={{ display: "none" }}>
+              → 15€ la séance<br />
+              → 30€ Gua Sha + Dan Tian<br />
+            </p>
           </p>
 
           {/* Moxibustion */}
@@ -216,17 +297,23 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Prendre rendez-vous</h2>
-Rendez-vous à votre domicile<br/>
-Je me déplace sur Nort-sur-Erdre et ses alentours.<br/>
-
-<b>Pour me contacter, merci de préciser votre commune de domicile et vos disponibilités.</b>
-<br />
-
-<h3>Mes horaires </h3>
-Du lundi au vendredi de 17h à 20h <br/>
-Possibilité de prendre rendez-vous le samedi sur demande, si besoin. 
+          <p>
+            Les séances se dérouleront <b>à votre domicile</b>.<br />
+            Je me déplace dans un rayon d'environ <b>20km autour de Nort-sur-Erdre</b>.<br />
+          </p>
+          <h3>Mes horaires </h3>
+          <p>
+            Du lundi au vendredi de 17h à 20h. <br />
+            Possibilité de prendre rendez-vous le samedi sur demande.
+          </p>
 
           <h2 className="major">Me contacter</h2>
+          <b>Merci de préciser votre commune de domicile et vos disponibilités afin que nous décidions ensemble d'une date.</b>
+          <br /><br />
+          <h3>Par téléphone</h3>
+          <i class="icon fa-phone"></i> 06 58 00 23 62
+          <br /><br />
+          <h3>Par mail</h3>
           <form name="contact" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
             <div className="field half first">
