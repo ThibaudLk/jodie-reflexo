@@ -135,7 +135,7 @@ class Main extends React.Component {
             </span>
             Action immédiate sur les organes et viscères du corps. <b>En Médecine Traditionnelle le pied est le reflet de la santé physique, psychique, mentale et émotionnelle</b>, c’est le tableau de commande de l’organisme.
             Le soin contribue à restaurer la capacité du corps à s’autoréguler en permettant au flux énergétique de traverser le corps et les organes correspondants.
-            En stimulant les zones réflexes perturbées <b>on aide à émiliminer les toxines de l’organisme, détruire les dépôts cristallins tout en renforçant la fonction des organes excréteurs pour en faciliter l’évacuation</b>.<br />
+            En stimulant les zones réflexes perturbées <b>on aide à éliminer les toxines de l’organisme, détruire les dépôts cristallins tout en renforçant la fonction des organes excréteurs pour en faciliter l’évacuation</b>.<br />
             <br />
             <h4 style={{ cursor: 'pointer' }} onClick={() => {
               var x = document.getElementById("tarif0");
@@ -149,7 +149,7 @@ class Main extends React.Component {
               }
             }}><i className='icon fa-arrow-right rotate'></i> Tarifs</h4>
             <p id="tarif0" style={{ display: "none" }}>
-              → 35€ la séance découverte <br />
+              → 35€ la séance étudiant.e.s <br />
               → 50€ la séance <br />
               → 120€ les 3 séances (<i>il est recommandé de faire 3 séances sur 2 semaines pour un soin approfondi</i>)
             </p>
@@ -203,7 +203,7 @@ class Main extends React.Component {
             }}><i className='icon fa-arrow-right rotate'></i> Tarifs</h4>
             <p id="tarif2" style={{ display: "none" }}>
               → 20€ la séance <br />
-              → 40€ Gua Sha + Dan Tian <br />
+              → 35€ Gua Sha + Dan Tian <br />
               → 55€ Gua Sha + Réflexologie palmaire <br />
             </p>
             <h4 style={{ cursor: 'pointer' }} onClick={() => {
@@ -275,7 +275,7 @@ class Main extends React.Component {
             }}><i className='icon fa-arrow-right rotate'></i> Tarifs</h4>
             <p id="tarif5" style={{ display: "none" }}>
               → 15€ la séance<br />
-              → 30€ Gua Sha + Dan Tian<br />
+              → 35€ Gua Sha + Dan Tian<br />
             </p>
           </p>
 
