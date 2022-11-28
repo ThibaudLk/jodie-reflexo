@@ -299,18 +299,18 @@ class Main extends React.Component {
           <h2 className="major">Prendre rendez-vous</h2>
           <p>
             Les séances se dérouleront <b>à votre domicile</b>.<br />
-            Je me déplace dans un rayon d'environ <b>20km autour de Nort-sur-Erdre</b>.<br />
+            Je me déplace dans un rayon d'environ <b>30km autour de Nort-sur-Erdre</b>.<br />
           </p>
           <h3>Mes horaires </h3>
           <p>
-            Du lundi au vendredi de 17h à 20h. <br />
+            Du lundi au vendredi de 9h à 20h. <br />
             Possibilité de prendre rendez-vous le samedi sur demande.
           </p>
 
           <h2 className="major">Me contacter</h2>
           <b>Merci de préciser votre commune de domicile et vos disponibilités afin que nous décidions ensemble d'une date.</b>
           <br /><br />
-          <h3>Par téléphone</h3>
+          <h3>Par SMS </h3>
           <i class="icon fa-phone"></i> 06 58 00 23 62
           <br /><br />
           <h3>Par mail</h3>
