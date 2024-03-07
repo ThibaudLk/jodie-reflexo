@@ -40,7 +40,7 @@ class Main extends React.Component {
             <ImageJodie />
           </span>
 
-          <h3>Jodie | 26 ans | Réflexologue</h3>
+          <h3><i class="fa fa-bolt" aria-hidden="true"></i> Jodie | 26 ans | Réflexologue</h3>
 
           <p>
             « J’ai toujours eu un attrait pour <b>le soin, l’aide à la personne</b>,
@@ -61,7 +61,6 @@ class Main extends React.Component {
             <u>Mes diplômes :</u> <br />
             <i class="fa fa-check" /> <b>Réflexologie Plantaire Thérapeutique</b> – à l’Institut de Médecine Naturelle de Genève, selon les exigences ASCA.<br />
             <i class="fa fa-check" /> <b>Certificat Réflexologie Plantaire, Palmaire & Abdominale appliquée à l’Énergétique Chinoise</b> incluant le Gua Sha et la Moxibustion.<br />
-
             <i class="fa fa-check" /> <b>Certificat Diététique du Tao.</b>
             <br /><br />
             <img src={formationdutao} alt="Formation du Tao" />
