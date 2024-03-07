@@ -40,22 +40,24 @@ class Main extends React.Component {
             <ImageJodie />
           </span>
 
-          <h3><i class="fa fa-bolt" aria-hidden="true"></i> Jodie | 26 ans | Réflexologue</h3>
+          <h3> Jodie | 28 ans | Réflexologue</h3>
 
           <p>
             « J’ai toujours eu un attrait pour <b>le soin, l’aide à la personne</b>,
             en particulier ces dernières années où j’ai voulu également <b>prendre soin de moi-même et être à l’écoute de mon corps</b>.
-            C’est pourquoi j’ai décidé de me former pour en apprendre plus sur mon corps et son fonctionnement.<br />
+            C’est pourquoi j’ai décidé de me former pour en apprendre plus sur le corps humain et son fonctionnement.<br />
             C’est par cette démarche que je suis tombée sur une <b>formation de Réflexologie appliquée à la Médecine Traditionnelle Chinoise</b>,
             où je me suis tout de suite sentie à ma place.<br />
-            Au cours de cette dernière j’ai beaucoup appris, sur le corps, les maladies, le fonctionnement des organes ou ce que provoque leurs dysfonctionnements.
-            Nous avons également approfondi la médecine et la pensée chinoise, leur façon de prévenir et de guérir les corps humains, puis les techniques, les méridiens et les points d’acupunctures. <br />
-            Tant de choses qui, une fois appliquées ont fait preuve de <b>guérisons impressionnantes</b> sur certains de mes consultants.
-            J’ai été si surprise des bienfaits que j’ai voulu en faire mon métier, pour <b>pouvoir soigner</b>,
-            non plus seulement mon entourage mais toutes personnes dans le besoin ou désirant <b>rééquilibrer et redynamiser son corps et son organisme</b>.<br />
-            Par la suite, j'ai voulu approfondir ma technique, je me suis donc également formée sur la <b>diététique du Tao</b>. C'est un complément qui me paraissait essentiel pour pouvoir conseiller toutes personnes ayant des troubles liés à leur système digestif ou celles désireuses de réguler leur poids ou changer leurs habitudes alimentaires pour être en meilleure santé.»
-
-
+            Avec l'approche de la médecine et de la pensée chinoise, j'ai appris ce qu'est le corps dans son ensemble, ainsi que le fonctionnement des organes ou ce que provoque leurs dysfonctionnements. 
+            Grâce à la technique de la réflexologie chinoise il est possible de soigner les maladies liées à nos habitudes, à nos émotions et à notre alimentation.
+           <br />
+            C'est donc en pratiquant sur mes proches pour commencer que j'ai pu constater que cette médecine alternative pouvait faire preuve de <b>guérisons impressionnantes</b>.
+            J’ai été tellement surprise des bienfaits que j’ai voulu en faire mon métier et <b>pouvoir soigner</b>,
+            non plus seulement mon entourage mais toutes personnes dans le besoin, désirant <b>rééquilibrer et redynamiser son corps et son organisme</b>.<br />
+            Par la suite, j'ai voulu continuer d'approfondir ma technique et mes connaissances, je me suis donc également formée sur la <b>diététique du Tao</b>. 
+            C'est un complément qui me paraissait essentiel pour pouvoir conseiller toutes personnes ayant des troubles émotionnels, physiques ou comportementales mettant en difficulté leur système digestif.»<br />
+            <br />
+            <i>« Ce qui ets nourriture pour l'un, est un poison pour l'autre»</i>
           </p>
           <p>
             <u>Mes diplômes :</u> <br />
@@ -84,19 +86,20 @@ class Main extends React.Component {
 
 
             <br />
-            La Médecine Traditionnelle Chinoise (MTC) est basée sur la philosophie du Tao (<i>la voie du milieu, de l'équilibre</i>) et l’harmonie des forces de la nature dans l’organisme et son environnement. Ces deux derniers ayant le même fonctionnement, la MTC se penche sur l’équilibre des 5 éléments qui les rassemble (Bois, Feu, Terre, Métal, Eau). <br />
+            <b>La Médecine Traditionnelle Chinoise</b> (MTC) est basée sur la philosophie du Tao (<i>la voie du milieu, de l'équilibre</i>) et l’harmonie des forces de la nature dans l’organisme et son environnement. C'est avec ces principes que la MTC se penche sur l’équilibre des 5 éléments se trouvant dans la nature de toutes choses : <b>Bois, Feu, Terre, Métal, Eau</b>. <br />
             Avec l’acupuncture, la moxibustion et l’énergétique, la réflexologie est le geste thérapeutique le plus ancien de la médecine chinoise.
-            La technique de réflexologie chinoise à laquelle j'ai été formée a été mise au point par l’<b>Institut Rwo Shr International de Taïwan</b>, reconnu par l'Organisation Mondiale de la Santé.<br />
-            Il repose sur la notion de vecteur d’énergie reliant les extrémités des mains et des pieds aux organes et aux entrailles par des zones appelées "zones réflexes".<br />
-            Elle a pour but de stimuler, auto-réguler, soigner et maintenir en santé le corps par la pression de ces zones réflexes. Le soin plantaire est accompagné par le drainage des méridiens (<i>réseau de vaisseaux à travers lequel l'énergie vitale "Qi" circule</i>), le drainage lymphatique (<i>système nerveux</i>) et l’acupression manuelle des points d’acupunctures essentiels dans l’objectif de rééquilibrer l’organisme dans son ensemble.
-            Aujourd’hui nous sommes de plus en plus sédentaires, nous portons des chaussures qui ne sont pas toujours adapatées, la plante de nos pieds n'est donc plus autant stimulée. C’est pourquoi il peut être nécessaire de rééquilibrer notre corps par la Réflexologie, étant une médecine aussi bien curative que préventive.<br />
+            La technique de réflexologie chinoise à laquelle j'ai été formée a été mise au point par l’<b>Institut Rwo Shr International de Taïwan</b>, reconnu par l'<b>Organisation Mondiale de la Santé</b>.<br />
+            Cette médecine est autant <b>préventive que curative</b>, il peut être utile de la pratiquer régulièrement même sur une personne ne présentant aucune patologie particulière.<br /> 
+            La réflexologie repose sur la notion de vecteur d’énergie reliant les extrémités des mains et des pieds aux organes et aux entrailles par des zones appelées "zones réflexes".
+            Elle a pour but de stimuler, auto-réguler, soigner et maintenir en santé le corps, par la pression de ces zones réflexes. Le soin plantaire est accompagné par <b>le drainage des méridiens</b> (<i>réseau de vaisseaux à travers lequel l'énergie vitale "Qi" circule</i>), <b>le drainage lymphatique</b> (<i>système nerveux</i>) et <b>l’acupression manuelle</b> des points d’acupunctures essentiels. L’objectif est de rééquilibrer l’organisme dans son ensemble.
+            Aujourd’hui nous sommes de plus en plus sédentaires, la plante de nos pieds n'est plus autant stimulée, il est nécessaire de rééquélibrer notre corps pour ne pas accumuler les maux.<br />
           </p>
           <p>
             <h2>Pour qui ?</h2>
             Toute personne désirant prendre soin de son corps et de son esprit.<br /><br />
             <h4><i className="icon fa-solid fa-exclamation-triangle" /> Contre-indications <i className="icon fa-solid fa-exclamation-triangle" /></h4>
             <ul>
-              <li>Femmes enceintes de moins de 8 mois (<i>à 8 mois et plus le soin peut cependant aider le bébé à bien se positionner ou à déclencher l'accouchement si le terme est dépassé</i>)</li>
+              <li>Femmes enceintes de moins de 8 mois (<i>à 8 mois et plus, le soin peut cependant aider le bébé à bien se positionner ou à déclencher l'accouchement si le terme est proche</i>)</li>
               <li>Personne ayant un Pacemaker</li>
               <li>Massage moins profond sur des personnes souffrant de graves problème de cœur, de reins ou de diabète</li>
               <li>Déconseillé les 3 premiers jours des menstruations (<i>car le soin augmente le débit  sanguin</i>)</li>
@@ -134,7 +137,7 @@ class Main extends React.Component {
             </span>
             Action immédiate sur les organes et viscères du corps. <b>En Médecine Traditionnelle le pied est le reflet de la santé physique, psychique, mentale et émotionnelle</b>, c’est le tableau de commande de l’organisme.
             Le soin contribue à restaurer la capacité du corps à s’autoréguler en permettant au flux énergétique de traverser le corps et les organes correspondants.
-            En stimulant les zones réflexes perturbées <b>on aide à éliminer les toxines de l’organisme, détruire les dépôts cristallins tout en renforçant la fonction des organes excréteurs pour en faciliter l’évacuation</b>.<br />
+            En stimulant les zones réflexes perturbées <b>on aide à éliminer les toxines de l’organisme, à détruire les dépôts cristallins, tout en renforçant la fonction des organes excréteurs pour en faciliter l’évacuation</b>.<br />
             <br />
             <h4 style={{ cursor: 'pointer' }} onClick={() => {
               var x = document.getElementById("tarif0");
@@ -150,7 +153,7 @@ class Main extends React.Component {
             <p id="tarif0" style={{ display: "none" }}>
               → 35€ la séance étudiant.e.s <br />
               → 50€ la séance <br />
-              → 120€ les 3 séances (<i>il est recommandé de faire 3 séances sur 2 semaines pour un soin approfondi</i>)
+              → 130€ les 3 séances (<i>il est recommandé de faire 3 séances sur 2 semaines pour un soin approfondi</i>)
             </p>
           </p>
 
@@ -160,9 +163,9 @@ class Main extends React.Component {
             <span className="image main">
               <img src={palmaire} alt="Réflexologie palmaire" />
             </span>
-            Les actions sont les mêmes que la Réflexologie plantaire mais moins directes car la <b>méthode est plus douce</b>, avec des points d’acupuncture différents.<br />
+            Les actions sont les mêmes que la Réflexologie plantaire, cependant moins directes puisque la <b>méthode est plus douce</b>. Certains points d’acupuncture pratiqués auront des effets différents.<br />
             Conseillé pour les personnes ayant des récentes fractures, mycoses, inflammations ou enflures au niveau du pied.<br />
-            Cette technique peut être suivie d’une séance de Gua Sha.<br />
+            Cette technique peut être suivie d’une séance de <b>Gua Sha (<i>voir ci-dessous</i>)</b>.<br />
             <br />
             <h4 style={{ cursor: 'pointer' }} onClick={() => {
               var x = document.getElementById("tarif1");
