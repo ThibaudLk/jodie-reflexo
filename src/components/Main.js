@@ -57,7 +57,7 @@ class Main extends React.Component {
             Par la suite, j'ai voulu continuer d'approfondir ma technique et mes connaissances, je me suis donc également formée sur la <b>diététique du Tao</b>. 
             C'est un complément qui me paraissait essentiel pour pouvoir conseiller toutes personnes ayant des troubles émotionnels, physiques ou comportementales mettant en difficulté leur système digestif.»<br />
             <br />
-            <i>« Ce qui ets nourriture pour l'un, est un poison pour l'autre»</i>
+            <i>« Ce qui est nourriture pour l'un, est un poison pour l'autre»</i>
           </p>
           <p>
             <u>Mes diplômes :</u> <br />
@@ -97,12 +97,14 @@ class Main extends React.Component {
           <p>
             <h2>Pour qui ?</h2>
             Toute personne désirant prendre soin de son corps et de son esprit.<br /><br />
-            <h4><i className="icon fa-solid fa-exclamation-triangle" /> Contre-indications <i className="icon fa-solid fa-exclamation-triangle" /></h4>
+            <h4><i className="icon fa-solid fa-exclamation-triangle" /> Contre-indications avant & après séance <i className="icon fa-solid fa-exclamation-triangle" /></h4>
             <ul>
               <li>Femmes enceintes de moins de 8 mois (<i>à 8 mois et plus, le soin peut cependant aider le bébé à bien se positionner ou à déclencher l'accouchement si le terme est proche</i>)</li>
               <li>Personne ayant un Pacemaker</li>
               <li>Massage moins profond sur des personnes souffrant de graves problème de cœur, de reins ou de diabète</li>
               <li>Déconseillé les 3 premiers jours des menstruations (<i>car le soin augmente le débit  sanguin</i>)</li>
+              <li>Soin minimum 1h après manger</li>
+              <li>500ml d'eau chaude/tiède à boire après la séance</li>
             </ul>
           </p>
           <p>
@@ -179,7 +181,7 @@ class Main extends React.Component {
               }
             }}><i className='icon fa-arrow-right rotate'></i> Tarifs</h4>
             <p id="tarif1" style={{ display: "none" }}>
-              → 40€ la séance
+              → 50€ la séance
             </p>
           </p>
 
@@ -206,7 +208,7 @@ class Main extends React.Component {
             <p id="tarif2" style={{ display: "none" }}>
               → 20€ la séance <br />
               → 35€ Gua Sha + Dan Tian <br />
-              → 55€ Gua Sha + Réflexologie palmaire <br />
+              → 65€ Gua Sha + Réflexologie <br />
             </p>
             <h4 style={{ cursor: 'pointer' }} onClick={() => {
               var x = document.getElementById("contreIndication");
