@@ -33,7 +33,7 @@ class Main extends React.Component {
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
             }`}
-          style={{ display: 'none'}}
+          style={{ display: 'none' }}
         >
           <h2 className="major">Un peu plus sur moi</h2>
           <span className="image main">
@@ -48,13 +48,13 @@ class Main extends React.Component {
             C’est pourquoi j’ai décidé de me former pour en apprendre plus sur le corps humain et son fonctionnement.<br />
             C’est par cette démarche que je suis tombée sur une <b>formation de Réflexologie appliquée à la Médecine Traditionnelle Chinoise</b>,
             où je me suis tout de suite sentie à ma place.<br />
-            Avec l'approche de la médecine et de la pensée chinoise, j'ai appris ce qu'est le corps dans son ensemble, ainsi que le fonctionnement des organes ou ce que provoque leurs dysfonctionnements. 
+            Avec l'approche de la médecine et de la pensée chinoise, j'ai appris ce qu'est le corps dans son ensemble, ainsi que le fonctionnement des organes ou ce que provoque leurs dysfonctionnements.
             Grâce à la technique de la réflexologie chinoise il est possible de soigner les maladies liées à nos habitudes, à nos émotions et à notre alimentation.
-           <br />
+            <br />
             C'est donc en pratiquant sur mes proches pour commencer que j'ai pu constater que cette médecine alternative pouvait faire preuve de <b>guérisons impressionnantes</b>.
             J’ai été tellement surprise des bienfaits que j’ai voulu en faire mon métier et <b>pouvoir soigner</b>,
             non plus seulement mon entourage mais toutes personnes dans le besoin, désirant <b>rééquilibrer et redynamiser son corps et son organisme</b>.<br />
-            Par la suite, j'ai voulu continuer d'approfondir ma technique et mes connaissances, je me suis donc également formée sur la <b>diététique du Tao</b>. 
+            Par la suite, j'ai voulu continuer d'approfondir ma technique et mes connaissances, je me suis donc également formée sur la <b>diététique du Tao</b>.
             C'est un complément qui me paraissait essentiel pour pouvoir conseiller toutes personnes ayant des troubles émotionnels, physiques ou comportementales mettant en difficulté leur système digestif.»<br />
             <br />
             <i>« Ce qui est nourriture pour l'un, est un poison pour l'autre»</i>
@@ -89,7 +89,7 @@ class Main extends React.Component {
             <b>La Médecine Traditionnelle Chinoise</b> (MTC) est basée sur la philosophie du Tao (<i>la voie du milieu, de l'équilibre</i>) et l’harmonie des forces de la nature dans l’organisme et son environnement. C'est avec ces principes que la MTC se penche sur l’équilibre des 5 éléments se trouvant dans la nature de toutes choses : <b>Bois, Feu, Terre, Métal, Eau</b>. <br />
             Avec l’acupuncture, la moxibustion et l’énergétique, la réflexologie est le geste thérapeutique le plus ancien de la médecine chinoise.
             La technique de réflexologie chinoise à laquelle j'ai été formée a été mise au point par l’<b>Institut Rwo Shr International de Taïwan</b>, reconnu par l'<b>Organisation Mondiale de la Santé</b>.<br />
-            Cette médecine est autant <b>préventive que curative</b>, il peut être utile de la pratiquer régulièrement même sur une personne ne présentant aucune patologie particulière.<br /> 
+            Cette médecine est autant <b>préventive que curative</b>, il peut être utile de la pratiquer régulièrement même sur une personne ne présentant aucune patologie particulière.<br />
             La réflexologie repose sur la notion de vecteur d’énergie reliant les extrémités des mains et des pieds aux organes et aux entrailles par des zones appelées "zones réflexes".
             Elle a pour but de stimuler, auto-réguler, soigner et maintenir en santé le corps, par la pression de ces zones réflexes. Le soin plantaire est accompagné par <b>le drainage des méridiens</b> (<i>réseau de vaisseaux à travers lequel l'énergie vitale "Qi" circule</i>), <b>le drainage lymphatique</b> (<i>système nerveux</i>) et <b>l’acupression manuelle</b> des points d’acupunctures essentiels. L’objectif est de rééquilibrer l’organisme dans son ensemble.
             Aujourd’hui nous sommes de plus en plus sédentaires, la plante de nos pieds n'est plus autant stimulée, il est nécessaire de rééquélibrer notre corps pour ne pas accumuler les maux.<br />
@@ -129,11 +129,11 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Mes soins</h2>
+          <h1 className="major">Mes soins</h1>
 
           {/* Réflexologie plantaire */}
           <p>
-            <h3>Réflexologie plantaire </h3>
+            <h2>Réflexologie plantaire </h2>
             <span className="image main">
               <img src={reflexoPlantaire} alt="Reflexologie plantaire" />
             </span>
@@ -152,7 +152,10 @@ class Main extends React.Component {
                 arrow.classList.remove('down');
               }
             }}><i className='icon fa-arrow-right rotate'></i> Tarifs</h4>
-            <p id="tarif0" style={{ display: "none" }}>
+            <p id="tarif0" style={{ display: "none" }}
+              data-sal="slide-down"
+              data-sal-duration="700"
+              data-sal-easing="ease-in-sine">
               → 35€ la séance étudiant.e.s <br />
               → 50€ la séance <br />
               → 130€ les 3 séances (<i>il est recommandé de faire 3 séances sur 2 semaines pour un soin approfondi</i>)
@@ -161,7 +164,7 @@ class Main extends React.Component {
 
           {/* Réflexologie palmaire */}
           <p>
-            <h3>Réflexologie palmaire </h3>
+            <h2>Réflexologie palmaire </h2>
             <span className="image main">
               <img src={palmaire} alt="Réflexologie palmaire" />
             </span>
@@ -180,14 +183,17 @@ class Main extends React.Component {
                 arrow.classList.remove('down');
               }
             }}><i className='icon fa-arrow-right rotate'></i> Tarifs</h4>
-            <p id="tarif1" style={{ display: "none" }}>
+            <p id="tarif1" style={{ display: "none" }}
+              data-sal="slide-down"
+              data-sal-duration="700"
+              data-sal-easing="ease-in-sine">
               → 50€ la séance
             </p>
           </p>
 
           {/* Gua Sha */}
           <p>
-            <h3>Gua Sha 刮痧 </h3>
+            <h2>Gua Sha 刮痧 </h2>
             <span className="image main">
               <img src={guasha} alt="Cuillère Gua Sha" />
             </span>
@@ -205,7 +211,10 @@ class Main extends React.Component {
                 arrow.classList.remove('down');
               }
             }}><i className='icon fa-arrow-right rotate'></i> Tarifs</h4>
-            <p id="tarif2" style={{ display: "none" }}>
+            <p id="tarif2" style={{ display: "none" }}
+              data-sal="slide-down"
+              data-sal-duration="700"
+              data-sal-easing="ease-in-sine">
               → 20€ la séance <br />
               → 35€ Gua Sha + Dan Tian <br />
               → 65€ Gua Sha + Réflexologie <br />
@@ -221,7 +230,10 @@ class Main extends React.Component {
                 arrow.classList.remove('down');
               }
             }}><i className='icon fa-arrow-right rotate'></i> Contre indications</h4>
-            <p id="contreIndication" style={{ display: "none" }}>
+            <p id="contreIndication" style={{ display: "none" }}
+              data-sal="slide-down"
+              data-sal-duration="700"
+              data-sal-easing="ease-in-sine">
               <ul>
                 <li> Femme enceinte</li>
                 <li> Grande fatigue ou faiblesse, hypotension</li>
@@ -247,7 +259,10 @@ class Main extends React.Component {
                 arrow.classList.remove('down');
               }
             }}><i className='icon fa-arrow-right rotate'></i> Après le Gua Sha</h4>
-            <p id="apresGuaSha" style={{ display: "none" }}>
+            <p id="apresGuaSha" style={{ display: "none" }}
+              data-sal="slide-down"
+              data-sal-duration="700"
+              data-sal-easing="ease-in-sine">
               <ul>
                 <li> Eviter le changement de température extrême juste après la séance</li>
                 <li> Pas de douche les 5 heures qui suivent</li>
@@ -261,7 +276,7 @@ class Main extends React.Component {
 
           {/* Dan Tian */}
           <p>
-            <h3>Dan Tian - les huit portes du vent </h3>
+            <h2>Dan Tian - les huit portes du vent </h2>
             Le nombril est au centre d’un réseau de connexions qui se déploient depuis l’abdomen vers le reste du corps.
             Cette technique <b>active la circulation du Qi</b> dans tout l’abdomen et <b>relâche les tensions dans la région du nombril</b> en permettant aux énergies perverses de quitter les organes et le corps.<br />
             Il permet également de <b>diagnostiquer quels sont les viscères en dysfonctionnement et de les harmoniser</b>.<br />
@@ -277,7 +292,10 @@ class Main extends React.Component {
                 arrow.classList.remove('down');
               }
             }}><i className='icon fa-arrow-right rotate'></i> Tarifs</h4>
-            <p id="tarif5" style={{ display: "none" }}>
+            <p id="tarif5" style={{ display: "none" }}
+              data-sal="slide-down"
+              data-sal-duration="700"
+              data-sal-easing="ease-in-sine">
               → 15€ la séance<br />
               → 35€ Gua Sha + Dan Tian<br />
             </p>

@@ -36,6 +36,7 @@ const Header = props => (
           <button
             onClick={() => {
               props.onOpenArticle('work')
+              window.history.pushState(null, '', window.location.href);
             }}
           >
             <i class="icon fa-solid fa-meteor"></i>La Réflexologie
@@ -45,6 +46,7 @@ const Header = props => (
           <button
             onClick={() => {
               props.onOpenArticle('about')
+              window.history.pushState(null, '', window.location.href);
             }}
           >
             Mes soins
@@ -54,6 +56,7 @@ const Header = props => (
           <button
             onClick={() => {
               props.onOpenArticle('contact')
+              window.history.pushState(null, '', window.location.href);
             }}
           >
             Me contacter

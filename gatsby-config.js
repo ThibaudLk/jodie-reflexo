@@ -11,6 +11,8 @@ module.exports = {
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    'gatsby-plugin-sass',
+    'gatsby-plugin-scroll-reveal-with-new-react',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -23,6 +25,5 @@ module.exports = {
         icon: 'src/images/logo.png', // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-sass',
   ],
 }
