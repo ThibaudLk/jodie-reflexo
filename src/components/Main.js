@@ -33,7 +33,7 @@ class Main extends React.Component {
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
             }`}
-          style={{ display: 'none' }}
+          style={{ display: 'none'}}
         >
           <h2 className="major">Un peu plus sur moi</h2>
           <span className="image main">

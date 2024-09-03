@@ -25,7 +25,8 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle('intro');
+              window.history.pushState(null, '', window.location.href);
             }}
           >
             Un peu plus sur moi

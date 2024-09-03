@@ -19,20 +19,23 @@ class IndexPage extends React.Component {
     this.handleCloseArticle = this.handleCloseArticle.bind(this)
     this.setWrapperRef = this.setWrapperRef.bind(this);
     this.handleClickOutside = this.handleClickOutside.bind(this);
+    this.handleBackButtonClick = this.handleBackButtonClick.bind(this);
   }
 
-  componentDidMount () {
+  componentDidMount() {
     this.timeoutId = setTimeout(() => {
-        this.setState({loading: ''});
+      this.setState({ loading: '' });
     }, 100);
     document.addEventListener('mousedown', this.handleClickOutside);
+    window.addEventListener('popstate', this.handleBackButtonClick);
   }
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     if (this.timeoutId) {
-        clearTimeout(this.timeoutId);
+      clearTimeout(this.timeoutId);
     }
     document.removeEventListener('mousedown', this.handleClickOutside);
+    window.removeEventListener('popstate', this.handleBackButtonClick);
   }
 
   setWrapperRef(node) {
@@ -86,6 +89,12 @@ class IndexPage extends React.Component {
       if (this.state.isArticleVisible) {
         this.handleCloseArticle();
       }
+    }
+  }
+
+  handleBackButtonClick(event) {
+    if (this.state.isArticleVisible) {
+      this.handleCloseArticle();
     }
   }
 
