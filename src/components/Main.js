@@ -133,7 +133,7 @@ class Main extends React.Component {
 
           {/* Réflexologie plantaire */}
           <p>
-            <h2>Réflexologie plantaire </h2>
+            <h3>Réflexologie plantaire </h3>
             <span className="image main">
               <img src={reflexoPlantaire} alt="Reflexologie plantaire" />
             </span>
@@ -164,7 +164,7 @@ class Main extends React.Component {
 
           {/* Réflexologie palmaire */}
           <p>
-            <h2>Réflexologie palmaire </h2>
+            <h3>Réflexologie palmaire </h3>
             <span className="image main">
               <img src={palmaire} alt="Réflexologie palmaire" />
             </span>
@@ -193,7 +193,7 @@ class Main extends React.Component {
 
           {/* Gua Sha */}
           <p>
-            <h2>Gua Sha 刮痧 </h2>
+            <h3>Gua Sha 刮痧 </h3>
             <span className="image main">
               <img src={guasha} alt="Cuillère Gua Sha" />
             </span>
@@ -276,7 +276,7 @@ class Main extends React.Component {
 
           {/* Dan Tian */}
           <p>
-            <h2>Dan Tian - les huit portes du vent </h2>
+            <h3>Dan Tian - les huit portes du vent </h3>
             Le nombril est au centre d’un réseau de connexions qui se déploient depuis l’abdomen vers le reste du corps.
             Cette technique <b>active la circulation du Qi</b> dans tout l’abdomen et <b>relâche les tensions dans la région du nombril</b> en permettant aux énergies perverses de quitter les organes et le corps.<br />
             Il permet également de <b>diagnostiquer quels sont les viscères en dysfonctionnement et de les harmoniser</b>.<br />
